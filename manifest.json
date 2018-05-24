@@ -1,0 +1,22 @@
+{
+	"name": "demo-placeholder",
+	"label": "Demo Placeholder",
+	"description": "Prints a brief message about how the gear you ran is not loaded into the demo site for filesize reasons. This will generally not be ran directly but used as a placeholder.",
+	"version": "0",
+	"inputs": {},
+	"config": {},
+	"author": "Nathaniel Kofalt",
+	"maintainer": "Nathaniel Kofalt",
+	"command": "./script.sh",
+	"license": "Apache-2.0",
+	"source": "",
+	"url": "",
+	"custom": {
+		"gear-builder": {
+			"image": "bash:4"
+		}
+	},
+	"capabilities": [
+		"networking"
+	]
+}
